@@ -5,9 +5,11 @@ Automatic height setter. fiHeight's coding likes fitText(https://github.com/dava
 fitHeight is setting an elements childs' margins. Calculating main elements childs' height, then firts and last childs's magins set for childs position on center.
 
 ##Call fitHeight
-<script>
-  $(...).fitHeight();
-</script>
+<pre>
+&lt;script>
+  $([element]).fitHeight();
+&lt;/script>
+</pre>
 
 ##unfit-height
 "unfit-height Class" class name is using for whitch child's height don't calculate.
