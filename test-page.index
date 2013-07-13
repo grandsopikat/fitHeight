@@ -4,6 +4,10 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>fitHeight</title>
 	<style>
+		html, body {
+			height: 100%;
+		}
+		
 		.column {
 			height: 100%;
 			width: 200px;
