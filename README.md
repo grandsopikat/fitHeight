@@ -1,0 +1,4 @@
+fitHeight
+=========
+
+Automatic height setter.
