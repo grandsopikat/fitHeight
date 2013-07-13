@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>fitHeight</title>
 	<style>
 		.column {
@@ -28,17 +28,17 @@
 </head>
 <body>
 	<div class="column">
-		<span>Satır 1</span>
-		<span>Satır 2</span>
+		<span>Line 1</span>
+		<span>Line 2</span>
 	</div>
 	<div class="column">
-		<span>Satır 1</span>
-		<div style="height:50px; width: 100%; background: #bbb"></div>
+		<span>Line 1</span>
+		<div style="height:50px; width: 100%; background: #bbb">Div</div>
 	</div>
 	<div class="column">
-		<span>Satır 1</span>
+		<span>Line 1</span>
 		<div class="unfit-height" style="height:100px; width: 100%; background: #bbb; position:absolute; top:0; left: 0">
-			<span style="color: #444;">Hesaplanmayan satır</span>
+			<span style="color: #444;">unfit-height line</span>
 		</div>
 	</div>
 </body>
